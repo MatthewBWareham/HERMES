@@ -1,0 +1,28 @@
+# GENERATE (v1)
+
+## Purpose
+
+GENERATE produces new candidate propositions, relations, or frames from the current FRAME and WORLD_STATE.
+
+## Signature
+
+- **Inputs:**
+  - FRAME, WORLD_STATE
+- **Outputs:**
+  - PROPOSITION, RELATION, FRAME
+
+## Behavior
+
+- Derives:
+  - Hypotheses
+  - Possible relations
+  - Alternative frames
+
+## Invariants
+
+- Generated content is tagged as provisional/hypothetical.
+
+## Failure Modes
+
+- Overgeneration:
+  - Result: pruning or prioritization required.
