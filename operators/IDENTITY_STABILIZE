@@ -1,0 +1,27 @@
+# IDENTITY_STABILIZE (v1)
+
+## Purpose
+
+IDENTITY_STABILIZE reinforces consistent identity references across WORLD_STATE.
+
+## Signature
+
+- **Inputs:**
+  - WORLD_STATE
+- **Outputs:**
+  - WORLD_STATE
+
+## Behavior
+
+- Ensures:
+  - Entities are not accidentally merged or split.
+  - References to the same entity remain coherent.
+
+## Invariants
+
+- Identity mappings are stable and explicit.
+
+## Failure Modes
+
+- Ambiguous identity:
+  - Result: require disambiguation or explicit splitting into distinct entities.
