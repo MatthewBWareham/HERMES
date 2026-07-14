@@ -1,0 +1,28 @@
+# RECURSE (v1)
+
+## Purpose
+
+RECURSE applies operators to nested structures or subframes, enabling hierarchical reasoning.
+
+## Signature
+
+- **Inputs:**
+  - FRAME, WORLD_STATE, NARRATIVE_STATE
+- **Outputs:**
+  - FRAME, WORLD_STATE, NARRATIVE_STATE
+
+## Behavior
+
+- Descends into:
+  - Subframes
+  - Subgraphs
+  - Nested propositions
+
+## Invariants
+
+- Recursion depth is tracked and bounded.
+
+## Failure Modes
+
+- Unbounded recursion:
+  - Result: halt and flag; may require restructuring.
