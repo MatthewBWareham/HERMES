@@ -1,0 +1,27 @@
+# UNFOLD (v1)
+
+## Purpose
+
+UNFOLD elaborates compressed or implicit content in PROPOSITION and FRAME.
+
+## Signature
+
+- **Inputs:**
+  - PROPOSITION, FRAME
+- **Outputs:**
+  - PROPOSITION, FRAME (expanded)
+
+## Behavior
+
+- Makes:
+  - Implicit assumptions explicit
+  - Hidden structure visible
+
+## Invariants
+
+- Original content remains traceable.
+
+## Failure Modes
+
+- Infinite elaboration:
+  - Result: depth limits or summarization required.
