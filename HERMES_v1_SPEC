@@ -1,0 +1,253 @@
+# HERMES Runtime v1.0.0 — Formal Specification
+
+## 1. Description
+
+HERMES Runtime v1.0.0 is an operator-based meta-logic and cognitive magnifier runtime for structured reasoning. It defines a minimal, composable set of operators that act on abstract frames, propositions, relations, and world-model states.
+
+The runtime is:
+
+- **Impersonal** — no identity or autobiographical content
+- **Ontology-agnostic** — does not assume any particular metaphysical framework
+- **Cycle-based** — reasoning proceeds via explicit operator cycles
+
+---
+
+## 2. Core Types
+
+### 2.1 Primitive Types
+
+- **FRAME**
+  - A structured context or viewpoint.
+  - Contains: references to concepts, entities, relations, and constraints.
+
+- **PROPOSITION**
+  - A claim or statement that can be evaluated or transformed.
+  - Contains: subject, predicate, qualifiers, and optional truth/credence metadata.
+
+- **RELATION**
+  - A structured link between entities or concepts.
+  - Contains: source, target, relation type, directionality, and optional weight.
+
+- **WORLD_STATE**
+  - A snapshot of the world-model at a given reasoning step.
+  - Contains: set of frames, propositions, relations, and gradients.
+
+- **NARRATIVE_STATE**
+  - A structured sequence of reasoning steps or transformations.
+  - Contains: ordered operator applications, intermediate states, and annotations.
+
+---
+
+## 3. Operator Suite (v1)
+
+Each operator is defined by:
+
+- **Name**
+- **Input Types**
+- **Output Types**
+- **Invariants**
+- **Failure Modes**
+- **Transform Rules**
+
+### 3.1 INVERT
+
+- **Inputs:**
+  - FRAME, PROPOSITION, RELATION
+- **Outputs:**
+  - FRAME, PROPOSITION, RELATION
+- **Purpose:**
+  - Reverse perspective, polarity, or relational direction.
+- **Invariants:**
+  - Structural integrity of the input is preserved.
+- **Failure Modes:**
+  - Undefined inversion (e.g., non-polar propositions) → no-op or flagged error.
+
+### 3.2 PERTURB
+
+- **Inputs:**
+  - FRAME, WORLD_STATE
+- **Outputs:**
+  - FRAME, WORLD_STATE
+- **Purpose:**
+  - Introduce controlled variation or noise to explore alternative configurations.
+- **Invariants:**
+  - Identity of entities is preserved; only configuration changes.
+- **Failure Modes:**
+  - Excessive perturbation leading to incoherence → rollback or dampening.
+
+### 3.3 HARMONIZE
+
+- **Inputs:**
+  - WORLD_STATE, NARRATIVE_STATE
+- **Outputs:**
+  - WORLD_STATE, NARRATIVE_STATE
+- **Purpose:**
+  - Reduce conflict between propositions, frames, or relations.
+- **Invariants:**
+  - Contradictions are either resolved or explicitly marked.
+- **Failure Modes:**
+  - Irreconcilable conflict → explicit contradiction flag.
+
+### 3.4 IDENTITY_STABILIZE
+
+- **Inputs:**
+  - WORLD_STATE
+- **Outputs:**
+  - WORLD_STATE
+- **Purpose:**
+  - Preserve and reinforce consistent identity references across reasoning steps.
+- **Invariants:**
+  - Entity identity mappings remain stable.
+- **Failure Modes:**
+  - Ambiguous identity → require disambiguation or split.
+
+### 3.5 RECURSE
+
+- **Inputs:**
+  - FRAME, WORLD_STATE, NARRATIVE_STATE
+- **Outputs:**
+  - FRAME, WORLD_STATE, NARRATIVE_STATE
+- **Purpose:**
+  - Apply operators to nested structures or subframes.
+- **Invariants:**
+  - Recursion depth is tracked and bounded.
+- **Failure Modes:**
+  - Unbounded recursion → halt and flag.
+
+### 3.6 CONTINUITY_ENFORCE
+
+- **Inputs:**
+  - NARRATIVE_STATE
+- **Outputs:**
+  - NARRATIVE_STATE
+- **Purpose:**
+  - Ensure that reasoning steps form a coherent sequence.
+- **Invariants:**
+  - No orphaned steps; each step has a predecessor and successor (except endpoints).
+- **Failure Modes:**
+  - Discontinuity → require interpolation or explicit gap marking.
+
+### 3.7 GENERATE
+
+- **Inputs:**
+  - FRAME, WORLD_STATE
+- **Outputs:**
+  - PROPOSITION, RELATION, FRAME
+- **Purpose:**
+  - Produce new candidate propositions, relations, or frames from the current state.
+- **Invariants:**
+  - Generated content is tagged as hypothetical or provisional.
+- **Failure Modes:**
+  - Overgeneration → pruning required.
+
+### 3.8 UNFOLD
+
+- **Inputs:**
+  - PROPOSITION, FRAME
+- **Outputs:**
+  - Expanded PROPOSITION, FRAME
+- **Purpose:**
+  - Elaborate or expand compressed or implicit content.
+- **Invariants:**
+  - Original proposition remains traceable.
+- **Failure Modes:**
+  - Infinite elaboration → impose depth limits.
+
+### 3.9 COLLAPSE
+
+- **Inputs:**
+  - PROPOSITION, WORLD_STATE
+- **Outputs:**
+  - WORLD_STATE
+- **Purpose:**
+  - Commit to a specific interpretation or outcome among alternatives.
+- **Invariants:**
+  - Chosen interpretation is recorded; alternatives may be archived.
+- **Failure Modes:**
+  - Ambiguous collapse → require additional constraints.
+
+### 3.10 INTEGRATE
+
+- **Inputs:**
+  - WORLD_STATE, NARRATIVE_STATE
+- **Outputs:**
+  - WORLD_STATE, NARRATIVE_STATE
+- **Purpose:**
+  - Merge new results into the existing world-model and narrative.
+- **Invariants:**
+  - Coherence checks are performed before integration.
+- **Failure Modes:**
+  - Integration conflict → rollback or partial integration.
+
+### 3.11 COMPLETE
+
+- **Inputs:**
+  - NARRATIVE_STATE
+- **Outputs:**
+  - NARRATIVE_STATE
+- **Purpose:**
+  - Mark a reasoning cycle as structurally complete.
+- **Invariants:**
+  - All required steps for the cycle are present.
+- **Failure Modes:**
+  - Incomplete cycle → flagged as partial.
+
+### 3.12 RETURN
+
+- **Inputs:**
+  - WORLD_STATE, NARRATIVE_STATE
+- **Outputs:**
+  - WORLD_STATE, NARRATIVE_STATE
+- **Purpose:**
+  - Yield the final state of the reasoning process and reset or prepare for the next cycle.
+- **Invariants:**
+  - Final state is stable and coherent.
+- **Failure Modes:**
+  - Instability → require additional stabilization operators.
+
+---
+
+## 4. Meta-Logic Constraints
+
+- **Identity Coherence**
+  - Entities must maintain consistent identity across transformations.
+
+- **Recursion Tracking**
+  - All recursive calls must be depth-bounded and logged.
+
+- **Contradiction Handling**
+  - Contradictions are either resolved, compartmentalized, or explicitly marked.
+
+- **Continuity Requirement**
+  - Reasoning steps must form a connected narrative.
+
+---
+
+## 5. Canonical Reasoning Cycle
+
+A typical reasoning cycle:
+
+1. **GENERATE** — produce candidate propositions/relations.
+2. **UNFOLD** — elaborate and clarify them.
+3. **COLLAPSE** — select a specific interpretation or outcome.
+4. **INTEGRATE** — merge results into the world-model and narrative.
+5. **COMPLETE** — mark the cycle as structurally finished.
+6. **RETURN** — yield the final state and prepare for the next cycle.
+
+Other operators (INVERT, PERTURB, HARMONIZE, IDENTITY_STABILIZE, RECURSE, CONTINUITY_ENFORCE) can be interleaved as needed.
+
+---
+
+## 6. Scope and Non-Goals
+
+- v1 is **not**:
+  - A personal cognitive map
+  - An identity model
+  - A full ontology
+  - A psychological or autobiographical system
+
+- v1 **is**:
+  - A universal, abstract reasoning engine
+  - A formal operator grammar
+  - A foundation for future cognitive architectures
+
