@@ -93,5 +93,5 @@ These are explicitly **out of scope** for v1.
 
 ## License
 
-See `LICENSE` for licensing terms (recommended: MIT or Apache 2.0).
+See `LICENSE` for licensing terms
 
