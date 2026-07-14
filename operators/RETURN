@@ -1,0 +1,28 @@
+# RETURN (v1)
+
+## Purpose
+
+RETURN yields the final WORLD_STATE and NARRATIVE_STATE of the reasoning process and prepares for the next cycle.
+
+## Signature
+
+- **Inputs:**
+  - WORLD_STATE, NARRATIVE_STATE
+- **Outputs:**
+  - WORLD_STATE, NARRATIVE_STATE
+
+## Behavior
+
+- Finalizes:
+  - Output state
+  - Logs cycle completion
+  - Resets or prepares runtime for subsequent cycles
+
+## Invariants
+
+- Final state is stable and coherent.
+
+## Failure Modes
+
+- Instability:
+  - Result: require additional stabilization before return.
