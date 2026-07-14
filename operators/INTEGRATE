@@ -1,0 +1,28 @@
+# INTEGRATE (v1)
+
+## Purpose
+
+INTEGRATE merges new results into WORLD_STATE and NARRATIVE_STATE.
+
+## Signature
+
+- **Inputs:**
+  - WORLD_STATE, NARRATIVE_STATE
+- **Outputs:**
+  - WORLD_STATE, NARRATIVE_STATE
+
+## Behavior
+
+- Incorporates:
+  - New propositions
+  - Updated relations
+  - Revised frames
+
+## Invariants
+
+- Coherence checks are performed before integration.
+
+## Failure Modes
+
+- Integration conflict:
+  - Result: rollback, partial integration, or conflict marking.
