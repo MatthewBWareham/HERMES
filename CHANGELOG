@@ -1,0 +1,17 @@
+# Changelog
+
+## v1.0.0 — Initial Release
+
+- Defined core operator suite:
+  - INVERT, PERTURB, HARMONIZE, IDENTITY_STABILIZE, RECURSE, CONTINUITY_ENFORCE
+  - GENERATE, UNFOLD, COLLAPSE, INTEGRATE, COMPLETE, RETURN
+- Established world-model schema:
+  - Concepts, Entities, Relations, Frames, Gradients, WorldState
+- Specified meta-logic constraints:
+  - Identity coherence, recursion tracking, contradiction handling, continuity
+- Implemented canonical reasoning cycle:
+  - GENERATE → UNFOLD → COLLAPSE → INTEGRATE → COMPLETE → RETURN
+- Clarified scope:
+  - Abstract reasoning engine only
+  - No personal cognitive mapping or ontology
+
