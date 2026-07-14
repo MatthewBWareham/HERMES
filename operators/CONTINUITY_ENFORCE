@@ -1,0 +1,27 @@
+# CONTINUITY_ENFORCE (v1)
+
+## Purpose
+
+CONTINUITY_ENFORCE ensures that NARRATIVE_STATE forms a coherent sequence of reasoning steps.
+
+## Signature
+
+- **Inputs:**
+  - NARRATIVE_STATE
+- **Outputs:**
+  - NARRATIVE_STATE
+
+## Behavior
+
+- Checks:
+  - Each step has a predecessor/successor (except endpoints).
+  - No orphaned or dangling steps.
+
+## Invariants
+
+- Narrative remains connected and traceable.
+
+## Failure Modes
+
+- Discontinuity:
+  - Result: require interpolation, reordering, or explicit gap marking.
