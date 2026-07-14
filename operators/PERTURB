@@ -1,0 +1,30 @@
+# PERTURB (v1)
+
+## Purpose
+
+PERTURB introduces controlled variation into FRAME or WORLD_STATE to explore alternative configurations without destroying identity.
+
+## Signature
+
+- **Inputs:**
+  - FRAME, WORLD_STATE
+- **Outputs:**
+  - FRAME, WORLD_STATE
+
+## Behavior
+
+- Applies small, bounded changes to:
+  - Salience
+  - Ordering
+  - Emphasis
+  - Contextual parameters
+
+## Invariants
+
+- Entity identity is preserved.
+- Changes are reversible or traceable.
+
+## Failure Modes
+
+- Excessive perturbation leading to incoherence:
+  - Result: rollback or dampening required.
