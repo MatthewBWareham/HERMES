@@ -1,0 +1,31 @@
+# INVERT (v1)
+
+## Purpose
+
+INVERT reverses perspective, polarity, or relational direction within a FRAME, PROPOSITION, or RELATION, while preserving structural integrity.
+
+## Signature
+
+- **Inputs:**
+  - FRAME, PROPOSITION, RELATION
+- **Outputs:**
+  - FRAME, PROPOSITION, RELATION
+
+## Behavior
+
+- For **FRAME**:
+  - Switches viewpoint or contextual emphasis.
+- For **PROPOSITION**:
+  - Inverts polarity (e.g., affirmation ↔ negation) where defined.
+- For **RELATION**:
+  - Reverses direction (source ↔ target) when meaningful.
+
+## Invariants
+
+- The underlying structure remains valid.
+- Identity references are preserved.
+
+## Failure Modes
+
+- Non-invertible content:
+  - Result: no-op or flagged as “non-invertible”.
