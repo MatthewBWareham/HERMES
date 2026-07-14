@@ -1,0 +1,27 @@
+# COMPLETE (v1)
+
+## Purpose
+
+COMPLETE marks a reasoning cycle as structurally finished.
+
+## Signature
+
+- **Inputs:**
+  - NARRATIVE_STATE
+- **Outputs:**
+  - NARRATIVE_STATE
+
+## Behavior
+
+- Validates:
+  - All required steps for the cycle are present.
+  - No pending unresolved structural requirements.
+
+## Invariants
+
+- Cycle is marked as complete.
+
+## Failure Modes
+
+- Incomplete cycle:
+  - Result: flagged as partial; may require additional steps.
