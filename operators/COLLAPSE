@@ -1,0 +1,27 @@
+# COLLAPSE (v1)
+
+## Purpose
+
+COLLAPSE commits to a specific interpretation or outcome among alternatives in PROPOSITION and WORLD_STATE.
+
+## Signature
+
+- **Inputs:**
+  - PROPOSITION, WORLD_STATE
+- **Outputs:**
+  - WORLD_STATE
+
+## Behavior
+
+- Selects:
+  - One interpretation or outcome
+  - Updates WORLD_STATE accordingly
+
+## Invariants
+
+- Chosen interpretation is recorded; alternatives may be archived.
+
+## Failure Modes
+
+- Ambiguous collapse:
+  - Result: require additional constraints or evidence.
