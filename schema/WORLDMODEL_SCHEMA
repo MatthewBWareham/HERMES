@@ -1,0 +1,53 @@
+# World-Model Schema (v1)
+
+## 1. Concepts
+
+- **Concept**
+  - `id`: unique identifier
+  - `label`: human-readable name
+  - `attributes`: key–value metadata
+
+## 2. Entities
+
+- **Entity**
+  - `id`: unique identifier
+  - `concept_id`: reference to Concept
+  - `attributes`: key–value metadata
+
+## 3. Relations
+
+- **Relation**
+  - `id`: unique identifier
+  - `source_id`: Entity or Concept
+  - `target_id`: Entity or Concept
+  - `type`: relation type (e.g., causal, temporal, logical)
+  - `directional`: boolean
+  - `weight`: optional scalar
+
+## 4. Frames
+
+- **Frame**
+  - `id`: unique identifier
+  - `context`: description or tag
+  - `concepts`: list of Concept ids
+  - `entities`: list of Entity ids
+  - `relations`: list of Relation ids
+  - `constraints`: optional logical or structural constraints
+
+## 5. Gradients
+
+- **Gradient**
+  - `id`: unique identifier
+  - `target_id`: reference to Concept, Entity, Relation, or Frame
+  - `type`: e.g., confidence, salience
+  - `value`: scalar or vector
+
+## 6. World State
+
+- **WorldState**
+  - `frames`: list of Frame
+  - `concepts`: list of Concept
+  - `entities`: list of Entity
+  - `relations`: list of Relation
+  - `gradients`: list of Gradient
+
