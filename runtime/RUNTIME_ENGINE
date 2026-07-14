@@ -1,0 +1,40 @@
+# Runtime Engine (v1)
+
+## 1. Responsibilities
+
+- Orchestrate operator application
+- Track recursion and continuity
+- Enforce meta-logic constraints
+- Drive the canonical reasoning cycle
+
+## 2. Canonical Cycle
+
+1. `GENERATE`
+2. `UNFOLD`
+3. `COLLAPSE`
+4. `INTEGRATE`
+5. `COMPLETE`
+6. `RETURN`
+
+Other operators (INVERT, PERTURB, HARMONIZE, IDENTITY_STABILIZE, RECURSE, CONTINUITY_ENFORCE) are applied as needed between these steps.
+
+## 3. State Tracking
+
+- **Current WorldState**
+- **Current NarrativeState**
+- **Recursion Depth**
+- **Cycle Status** (active, complete, partial, error)
+
+## 4. Error Handling
+
+- Contradictions → mark and optionally compartmentalize
+- Unbounded recursion → halt and flag
+- Incoherence → trigger stabilization or rollback
+- Discontinuity → require interpolation or explicit gap marking
+
+## 5. Non-Goals
+
+- No identity modeling beyond stable entity references
+- No ontology declaration
+- No personal or autobiographical encoding
+
