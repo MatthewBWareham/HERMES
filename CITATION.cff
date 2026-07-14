@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use HERMES Runtime v1.0.0 in your work, please cite it using the metadata below."
+title: "HERMES Runtime v1.0.0"
+version: "1.0.0"
+abstract: "HERMES Runtime v1.0.0 is an operator-based meta-logic engine for structured reasoning. It defines a minimal, impersonal suite of cognitive operators and a canonical reasoning cycle, suitable for research, experimentation, and computational logic frameworks."
+authors:
+  - family-names: "Wareham"
+    given-names: "Matthew"
+    orcid: ""
+date-released: "2026-07-14"
+repository-code: "https://github.com/YOUR_USERNAME/HERMES-Runtime-v1"
+keywords:
+  - reasoning engine
+  - meta-logic
+  - cognitive operators
+  - structured reasoning
+  - HERMES
+license: "MIT"
