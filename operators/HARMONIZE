@@ -1,0 +1,30 @@
+# HARMONIZE (v1)
+
+## Purpose
+
+HARMONIZE reduces conflict between propositions, frames, or relations within WORLD_STATE or NARRATIVE_STATE.
+
+## Signature
+
+- **Inputs:**
+  - WORLD_STATE, NARRATIVE_STATE
+- **Outputs:**
+  - WORLD_STATE, NARRATIVE_STATE
+
+## Behavior
+
+- Attempts:
+  - Reconciliation of conflicting propositions
+  - Reframing of incompatible perspectives
+  - Compartmentalization of irreconcilable content
+
+## Invariants
+
+- Conflicts are either:
+  - Resolved, or
+  - Explicitly marked as contradictions.
+
+## Failure Modes
+
+- Irreconcilable conflict:
+  - Result: contradiction flag; may require external decision or higher-level policy.
