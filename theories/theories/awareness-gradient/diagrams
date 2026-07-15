@@ -1,0 +1,191 @@
+# Awareness Gradient Diagrams
+### ASCII Visualizations of Awareness, Resolution, Collapse, Expansion, and Continuity
+
+## 1. Awareness Range
+Awareness determines how much of the gradient is visible.
+
+Low Awareness:
+P_min ---- x ---- P_max
+
+High Awareness:
+P_min ----------- x ----------- P_max
+
+ASCII:
+Low:   Calm -- [x] -- Intense
+High:  Calm ---- Calm+ ---- Center ---- Intense+ ---- Intense
+
+---
+
+## 2. Awareness vs Resolution
+Awareness = range  
+Resolution = clarity
+
+Low Awareness + Low Resolution:
+P_min -- [??] -- P_max
+
+High Awareness + High Resolution:
+P_min ---- Calm+ ---- Center ---- Intense+ ---- P_max
+
+ASCII:
+Blurry:
+Calm -- [?] -- Intense
+
+Clear:
+Calm ---- Calm+ ---- Center ---- Intense+ ---- Intense
+
+---
+
+## 3. Awareness Collapse
+Collapse compresses the gradient and hides the midpoint.
+
+Collapsed:
+P_min -- x -- P_max
+(midpoint invisible)
+
+ASCII:
+Calm -- [x] -- Intense
+(midpoint collapsed)
+
+Collapse Basin:
+[#####]----------------[#####]
+ ^min collapse          ^max collapse
+
+---
+
+## 4. Awareness Expansion
+Expansion widens the gradient and reveals nuance.
+
+Expanded:
+P_min -------- x -------- P_max
+(midpoint visible)
+
+ASCII:
+Calm ---- Calm+ ---- Center ---- Intense+ ---- Intense
+
+Expansion Basin:
+[~~~]----------------[~~~]
+ ^stability zone      ^stability zone
+
+---
+
+## 5. Awareness Gradient (Meta-Gradient)
+Awareness itself forms a gradient.
+
+0     0.25     0.5     0.75     1
+|-------|--------|--------|-------|
+Low         Mid         High
+
+ASCII:
+Low ---- Medium ---- High ---- Very High
+
+---
+
+## 6. Collapse vs Expansion (Side-by-Side)
+
+Collapsed:
+Calm -- [x] -- Intense
+(midpoint gone)
+
+Expanded:
+Calm ---- Calm+ ---- Center ---- Intense+ ---- Intense
+(midpoint visible)
+
+ASCII:
+Collapsed:  [##]--x--[##]
+Expanded:   Calm--Center--Intense
+
+---
+
+## 7. Awareness and Identity Stability
+Identity midpoint depends on awareness.
+
+Low Awareness:
+P_min -- x -- P_max
+Identity midpoint inaccessible.
+
+High Awareness:
+P_min ---- Center ---- P_max
+Identity midpoint stable.
+
+ASCII:
+Low:   Self -- [x] -- Selflessness
+High:  Self ---- Balanced ---- Selflessness
+
+---
+
+## 8. Awareness and Perturbation
+Low awareness → small perturbation causes collapse.  
+High awareness → perturbation is integrated.
+
+Low Awareness:
+Calm -- [x] -- Intense
+           |
+       small δ → collapse
+
+High Awareness:
+Calm ---- Calm+ ---- Center ---- Intense+ ---- Intense
+                     |
+                 δ → integrated
+
+ASCII:
+Low:   [x] → collapse
+High:  [x] → shift but stable
+
+---
+
+## 9. Awareness and Continuity
+Awareness maintains continuity across cognitive states.
+
+Collapsed Continuity:
+[x] → [break] → [fragment]
+
+Expanded Continuity:
+[x] → [transition] → [transition] → [stable]
+
+ASCII:
+Collapsed:
+[x] --//-- [fragment]
+
+Expanded:
+[x] ----> [next] ----> [next] ----> [stable]
+
+---
+
+## 10. Awareness Field Diagram
+Awareness expands or compresses the entire field.
+
+Low Awareness Field:
++----------------+
+| Collapse | Collapse |
++----------------+
+
+High Awareness Field:
++-------------------------------------------+
+| Collapse | Stability | Collapse |
++-------------------------------------------+
+
+ASCII:
+Low:
++--------+
+| ##  ## |
++--------+
+
+High:
++------------------------+
+| ##  --  Center  --  ## |
++------------------------+
+
+---
+
+## 11. Summary
+These diagrams illustrate:
+- awareness range  
+- resolution clarity  
+- collapse compression  
+- expansion widening  
+- identity stability  
+- perturbation tolerance  
+- continuity preservation  
+- field dimensionality  
+
+Awareness is the visibility layer of cognition, and these diagrams show how it expands, collapses, and stabilizes.
