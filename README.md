@@ -81,7 +81,7 @@ See `runtime/RUNTIME_ENGINE.md` for details.
 
 This project includes a formal description of its reasoning principles.  
 See **Relational Reasoning**:  
-[docs/philosophy/relational_reasoning.md](docs/philosophy/relational_reasoning.md)
+[docs/philosophy/relational_reasoning.md](docs/philosophy/relational_reasoning)
 
 
 ## Status
