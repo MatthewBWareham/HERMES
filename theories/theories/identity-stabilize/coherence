@@ -1,0 +1,259 @@
+# Identity Coherence Theory
+### The Structural Integrity of the Self-Model Across Time, Awareness, and Perturbation
+
+## 1. Overview
+Identity coherence is the structural condition that allows a cognitive system to maintain a unified sense of self across:
+- changing emotional states  
+- shifting contexts  
+- recursive reasoning  
+- perturbation events  
+- awareness fluctuations  
+
+Coherence is not consistency.  
+Coherence is not rigidity.  
+Coherence is **structural alignment across identity layers**.
+
+This document defines identity coherence formally and integrates it with HERMES invariants and operator behavior.
+
+---
+
+## 2. Definition
+Identity coherence is defined as:
+
+
+
+\[
+\text{Coherence}(I) = \text{Alignment}(I_{\text{core}}, I_{\text{narr}}, I_{\text{sit}})
+\]
+
+
+
+Where:
+- \( I_{\text{core}} \) = core identity  
+- \( I_{\text{narr}} \) = narrative identity  
+- \( I_{\text{sit}} \) = situational identity  
+
+Coherence is high when these layers reinforce each other.  
+Coherence is low when they contradict each other.
+
+Coherence threshold:
+
+
+
+\[
+\text{Coherence}(I) \geq K_{\min}
+\]
+
+
+
+Below this threshold, identity destabilizes.
+
+---
+
+## 3. Coherence Components
+Identity coherence has three structural components:
+
+### 3.1 Structural Coherence  
+Alignment of identity layers.
+
+### 3.2 Temporal Coherence  
+Continuity across time and narrative.
+
+### 3.3 Referential Coherence  
+Stability of self-referential structures.
+
+These correspond directly to HERMES invariants:
+- **IDENTITY_COHERENCE**  
+- **HISTORICAL_CONTINUITY**  
+- **REFERENCE_STABILITY**  
+
+---
+
+## 4. Coherence and Awareness
+Coherence depends on awareness.
+
+
+
+\[
+\text{Coherence}(I) \propto A
+\]
+
+
+
+Low awareness:
+- hides identity gradients  
+- compresses identity field  
+- increases contradiction density  
+- destabilizes coherence  
+
+High awareness:
+- reveals identity structure  
+- expands stability zones  
+- integrates contradictions  
+- increases coherence  
+
+Awareness is the visibility layer of identity.
+
+---
+
+## 5. Coherence and Resolution
+Resolution determines identity clarity.
+
+Low resolution:
+- blurs identity boundaries  
+- hides contradictions  
+- destabilizes narrative alignment  
+
+High resolution:
+- reveals subtle identity states  
+- supports integration  
+- increases coherence  
+
+Resolution is the granularity layer of identity.
+
+---
+
+## 6. Coherence and Perturbation
+Perturbation destabilizes coherence when excessive.
+
+
+
+\[
+|\delta| > \delta_{\max}
+\]
+
+
+
+Effects:
+- identity fragmentation  
+- contradictory self-models  
+- emotional instability  
+- collapse into endpoint identity states  
+
+But controlled perturbation (PERTURB operator):
+- reveals hidden identity structure  
+- prevents rigidity  
+- supports growth  
+
+Coherence is the buffer against perturbation.
+
+---
+
+## 7. Coherence and Continuity
+Continuity is required for coherence.
+
+
+
+\[
+\text{Continuity} \geq C_{\min}
+\]
+
+
+
+Continuity ensures:
+- narrative stability  
+- temporal alignment  
+- recursive integrity  
+- historical trace  
+
+HERMES enforces continuity through:
+- **CONTINUITY_ENFORCE**  
+- **SEQUENCE_INTEGRITY**  
+
+Coherence collapses when continuity breaks.
+
+---
+
+## 8. Coherence Failure Modes
+Identity coherence fails in predictable ways.
+
+### 8.1 Fragmentation  
+Identity layers diverge.
+
+### 8.2 Contradiction Amplification  
+Contradictions become dominant.
+
+### 8.3 Narrative Break  
+Temporal continuity collapses.
+
+### 8.4 Referential Instability  
+Self-referential structures become inconsistent.
+
+These correspond to HERMES failure modes:
+- **IDENTITY_FRAGMENTATION**  
+- **INCONSISTENT_SELF_MODEL**  
+- **HISTORICAL_BREAK**  
+
+---
+
+## 9. Coherence Restoration
+Coherence can be restored through:
+
+### 9.1 HARMONIZE  
+Integrates contradictions into higher-order identity.
+
+### 9.2 IDENTITY_STABILIZE  
+Reinforces alignment across identity layers.
+
+### 9.3 CONTINUITY_ENFORCE  
+Restores temporal and narrative coherence.
+
+### 9.4 RECURSE  
+Generates meta-identity and self-reflection.
+
+### 9.5 Awareness Expansion  
+Reveals hidden identity gradients.
+
+Coherence restoration is the structural repair of identity.
+
+---
+
+## 10. Coherence Gradient
+Identity coherence forms a gradient:
+
+
+
+\[
+C(x) : x \in [0,1]
+\]
+
+
+
+Where:
+- \( x = 0 \) → incoherence (fragmentation)  
+- \( x = 0.5 \) → stable coherence  
+- \( x = 1 \) → meta-coherence (self-reflective, resilient, integrated)  
+
+Identity stabilization is movement along this gradient.
+
+---
+
+## 11. Coherence and Meaning
+Meaning emerges from coherent identity.
+
+Low coherence:
+- reduces meaning  
+- destabilizes narrative  
+- collapses purpose  
+
+High coherence:
+- increases meaning  
+- stabilizes narrative  
+- supports purpose  
+
+Meaning is a coherence-dependent phenomenon.
+
+---
+
+## 12. Summary
+Identity coherence is:
+- alignment across identity layers  
+- stability across time  
+- integrity of self-reference  
+- resilience to perturbation  
+- visibility through awareness  
+- clarity through resolution  
+- continuity through narrative  
+- integration through harmonization  
+
+Coherence Theory is the second major component of Identity Stabilization Theory.
