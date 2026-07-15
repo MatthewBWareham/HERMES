@@ -77,6 +77,13 @@ The runtime engine:
 
 See `runtime/RUNTIME_ENGINE.md` for details.
 
+## Philosophy
+
+This project includes a formal description of its reasoning principles.  
+See **Relational Reasoning**:  
+[docs/philosophy/relational_reasoning.md](docs/philosophy/relational_reasoning.md)
+
+
 ## Status
 
 - **Version:** 1.0.0
