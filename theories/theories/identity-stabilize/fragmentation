@@ -1,0 +1,312 @@
+# Identity Fragmentation Theory
+### The Structural Breakdown of the Self-Model Across Awareness, Continuity, and Perturbation
+
+## 1. Overview
+Identity fragmentation is the structural failure mode of the self-model.  
+It occurs when identity layers lose alignment, continuity breaks, contradictions amplify, and awareness collapses.
+
+Fragmentation is not “being inconsistent.”  
+Fragmentation is not “changing your mind.”  
+Fragmentation is **the breakdown of coherence across identity layers**.
+
+This document defines identity fragmentation formally and integrates it with HERMES invariants, failure modes, and stabilization operators.
+
+---
+
+## 2. Definition
+Identity fragmentation is defined as:
+
+
+
+\[
+\text{Fragmentation}(I) = \text{Divergence}(I_{\text{core}}, I_{\text{narr}}, I_{\text{sit}})
+\]
+
+
+
+Where:
+- \( I_{\text{core}} \) = core identity  
+- \( I_{\text{narr}} \) = narrative identity  
+- \( I_{\text{sit}} \) = situational identity  
+
+Fragmentation occurs when:
+
+
+
+\[
+\text{Alignment}(I_{\text{core}}, I_{\text{narr}}, I_{\text{sit}}) < K_{\min}
+\]
+
+
+
+Below this threshold, identity becomes unstable.
+
+---
+
+## 3. Fragmentation Components
+Identity fragmentation has three structural components:
+
+### 3.1 Layer Divergence  
+Identity layers contradict each other.
+
+### 3.2 Temporal Break  
+Historical continuity collapses.
+
+### 3.3 Referential Instability  
+Self-reference becomes inconsistent.
+
+These correspond directly to HERMES failure modes:
+- **IDENTITY_FRAGMENTATION**  
+- **INCONSISTENT_SELF_MODEL**  
+- **HISTORICAL_BREAK**
+
+---
+
+## 4. Fragmentation and Awareness
+Fragmentation is strongly correlated with awareness collapse.
+
+
+
+\[
+\text{Fragmentation}(I) \propto (1 - A)
+\]
+
+
+
+Low awareness:
+- hides identity gradients  
+- compresses identity field  
+- increases contradiction density  
+- destabilizes coherence  
+
+High awareness:
+- reveals identity structure  
+- expands stability zones  
+- integrates contradictions  
+- reduces fragmentation  
+
+Awareness is the visibility layer of identity integrity.
+
+---
+
+## 5. Fragmentation and Resolution
+Resolution determines identity clarity.
+
+Low resolution:
+- blurs identity boundaries  
+- hides contradictions  
+- destabilizes narrative alignment  
+- increases fragmentation risk  
+
+High resolution:
+- reveals subtle identity states  
+- supports integration  
+- increases coherence  
+- reduces fragmentation  
+
+Resolution is the granularity layer of identity.
+
+---
+
+## 6. Fragmentation and Perturbation
+Perturbation destabilizes identity when excessive.
+
+
+
+\[
+|\delta| > \delta_{\max}
+\]
+
+
+
+Effects:
+- emotional overload  
+- contradictory self-models  
+- collapse into endpoint identity states  
+- narrative distortion  
+
+Controlled perturbation (PERTURB operator):
+- reveals hidden identity structure  
+- prevents rigidity  
+- supports growth  
+
+Fragmentation is the failure to integrate perturbation.
+
+---
+
+## 7. Fragmentation and Continuity
+Fragmentation is closely tied to continuity failure.
+
+
+
+\[
+\text{Continuity}(I) < C_{\min}
+\]
+
+
+
+Continuity failure leads to:
+- narrative breaks  
+- temporal fragmentation  
+- inconsistent self-reference  
+- recursive instability  
+
+HERMES enforces continuity through:
+- **CONTINUITY_ENFORCE**  
+- **SEQUENCE_INTEGRITY**  
+- **REFERENCE_STABILITY**
+
+Fragmentation is the structural collapse of continuity.
+
+---
+
+## 8. Fragmentation Modes
+Identity fragmentation occurs in predictable modes.
+
+### 8.1 Horizontal Fragmentation  
+Identity layers diverge:
+- core vs narrative  
+- narrative vs situational  
+- situational vs core  
+
+### 8.2 Vertical Fragmentation  
+Identity fragments across time:
+- past self  
+- present self  
+- future self  
+
+### 8.3 Recursive Fragmentation  
+Self-model breaks under recursion:
+- rumination loops  
+- contradictory self-reference  
+- recursive instability  
+
+### 8.4 Boundary Fragmentation  
+Identity boundaries collapse:
+- self-other confusion  
+- role confusion  
+- emotional fusion  
+
+These modes correspond to HERMES diagnostic categories.
+
+---
+
+## 9. Fragmentation Detection
+Fragmentation is detected when:
+
+
+
+\[
+\text{Coherence}(I) < K_{\min}
+\]
+
+
+
+or
+
+
+
+\[
+\text{Continuity}(I) < C_{\min}
+\]
+
+
+
+or
+
+
+
+\[
+\text{Contradiction Density} > D_{\max}
+\]
+
+
+
+or
+
+
+
+\[
+\text{Perturbation} > \delta_{\max}
+\]
+
+
+
+Fragmentation is a structural condition, not a subjective feeling.
+
+---
+
+## 10. Fragmentation Recovery
+Fragmentation can be repaired through:
+
+### 10.1 HARMONIZE  
+Integrates contradictions into higher-order identity.
+
+### 10.2 IDENTITY_STABILIZE  
+Reinforces alignment across identity layers.
+
+### 10.3 CONTINUITY_ENFORCE  
+Restores temporal and narrative coherence.
+
+### 10.4 RECURSE  
+Generates meta-identity and self-reflection.
+
+### 10.5 Awareness Expansion  
+Reveals hidden identity gradients.
+
+### 10.6 Resolution Increase  
+Clarifies identity boundaries.
+
+Fragmentation recovery is the structural reintegration of identity.
+
+---
+
+## 11. Fragmentation Gradient
+Identity fragmentation forms a gradient:
+
+
+
+\[
+F(x) : x \in [0,1]
+\]
+
+
+
+Where:
+- \( x = 0 \) → complete fragmentation  
+- \( x = 0.5 \) → partial fragmentation  
+- \( x = 1 \) → stable identity  
+
+Identity stabilization is movement along this gradient.
+
+---
+
+## 12. Fragmentation and Meaning
+Meaning collapses when identity fragments.
+
+Low fragmentation:
+- meaning stable  
+- narrative coherent  
+- purpose aligned  
+
+High fragmentation:
+- meaning collapses  
+- narrative breaks  
+- purpose destabilizes  
+
+Meaning is an identity-dependent phenomenon.
+
+---
+
+## 13. Summary
+Identity fragmentation is:
+- divergence across identity layers  
+- collapse of temporal continuity  
+- instability of self-reference  
+- amplification of contradictions  
+- failure to integrate perturbation  
+- collapse of awareness  
+- loss of resolution  
+- breakdown of meaning  
+
+Fragmentation Theory is the fourth major component of Identity Stabilization Theory.
