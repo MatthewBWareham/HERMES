@@ -1,0 +1,250 @@
+# Awareness Resolution Theory
+### Cognitive Clarity, Gradient Visibility, and Perceptual Granularity
+
+## 1. Overview
+Awareness resolution determines how clearly cognition perceives the structure of a polarity gradient.  
+Where awareness defines the *range* of visibility, resolution defines the *clarity* of what is seen.
+
+High resolution reveals nuance.  
+Low resolution forces simplification.
+
+Resolution is the difference between:
+- seeing a gradient  
+- seeing only endpoints  
+
+This document defines awareness resolution as a formal construct and explains its role in collapse, stability, identity, and meaning.
+
+---
+
+## 2. Definition
+Given a polarity gradient \( G_P \):
+
+Awareness resolution is defined as:
+
+
+
+\[
+R \in (0,1]
+\]
+
+
+
+Where:
+- \( R = 1 \) → full clarity  
+- \( R < 1 \) → partial clarity  
+- \( R \rightarrow 0 \) → binary perception  
+
+Resolution determines the *granularity* of cognitive perception.
+
+High resolution:
+- reveals intermediate states  
+- supports nuance  
+- enables harmonization  
+
+Low resolution:
+- hides intermediate states  
+- forces binary thinking  
+- increases collapse risk  
+
+---
+
+## 3. Resolution vs Awareness
+Awareness and resolution are distinct:
+
+### Awareness = how much of the gradient is visible  
+### Resolution = how clearly the visible portion is perceived
+
+Examples:
+- High awareness + low resolution → sees the whole gradient but in blurry categories  
+- Low awareness + high resolution → sees a small portion clearly but misses the rest  
+- High awareness + high resolution → full clarity and nuance  
+- Low awareness + low resolution → binary collapse  
+
+Resolution is the *quality* of perception.  
+Awareness is the *quantity* of perception.
+
+---
+
+## 4. Resolution Collapse
+Resolution collapse occurs when cognitive clarity drops below the threshold needed to perceive nuance.
+
+Collapse condition:
+
+
+
+\[
+R < \rho
+\]
+
+
+
+Where \( \rho \) is the resolution threshold.
+
+Effects:
+- midpoint becomes indistinguishable  
+- gradient appears binary  
+- endpoints appear exaggerated  
+- emotional reactivity increases  
+- identity stability decreases  
+
+Resolution collapse is a precursor to full gradient collapse.
+
+---
+
+## 5. Resolution Expansion
+Resolution expands when:
+- cognitive load decreases  
+- emotional intensity stabilizes  
+- introspective clarity increases  
+- awareness expands  
+- perturbation reduces  
+
+Resolution expansion reveals:
+- subtle differences  
+- intermediate states  
+- mixed emotional tones  
+- layered identity states  
+- complex meaning structures  
+
+Resolution expansion is the foundation of cognitive nuance.
+
+---
+
+## 6. Resolution and Identity
+Identity stability depends on resolution.
+
+Identity midpoint:
+
+
+
+\[
+I_P = P(0.5)
+\]
+
+
+
+Resolution determines whether the midpoint is:
+- distinct  
+- blurry  
+- collapsed  
+- accessible  
+- meaningful  
+
+Low resolution → midpoint becomes indistinct → identity destabilizes.  
+High resolution → midpoint becomes clear → identity stabilizes.
+
+---
+
+## 7. Resolution and Meaning
+Meaning emerges from high-resolution gradients.
+
+Low resolution:
+- oversimplifies  
+- generalizes  
+- collapses nuance  
+- reduces meaning  
+
+High resolution:
+- differentiates  
+- contextualizes  
+- integrates  
+- increases meaning  
+
+Meaning is a resolution-dependent phenomenon.
+
+---
+
+## 8. Resolution and Perturbation
+Resolution determines perturbation sensitivity.
+
+Perturbation force:
+
+
+
+\[
+\delta
+\]
+
+
+
+Resolution-adjusted collapse threshold:
+
+
+
+\[
+\rho_R = \rho \cdot (1 - R)
+\]
+
+
+
+Low resolution → small perturbations cause collapse.  
+High resolution → perturbations are integrated.
+
+Resolution is the buffer against misinterpretation.
+
+---
+
+## 9. Resolution and Fields
+Resolution determines field *detail*.
+
+High resolution:
+- reveals micro-gradients  
+- reveals subtle collapse basins  
+- reveals layered stability zones  
+- reveals multi-dimensional interactions  
+
+Low resolution:
+- hides structure  
+- hides nuance  
+- hides complexity  
+- hides meaning  
+
+Resolution determines the *texture* of cognitive fields.
+
+---
+
+## 10. Resolution Gradient
+Resolution itself forms a gradient:
+
+
+
+\[
+R(x) : x \in [0,1]
+\]
+
+
+
+This gradient represents:
+- levels of perceptual clarity  
+- levels of cognitive granularity  
+- levels of emotional differentiation  
+- levels of identity detail  
+
+Resolution is not binary — it is continuous.
+
+---
+
+## 11. Role in HERMES
+HERMES operators interact with resolution indirectly:
+
+- **AMPLIFY** increases emotional intensity → reduces resolution  
+- **HARMONIZE** stabilizes midpoint → increases resolution  
+- **INVERT** reveals hidden structure → increases resolution  
+- **MAP** transfers resolution across layers  
+- **RECURSE** generates meta-resolution  
+
+Resolution determines how operators are interpreted.
+
+---
+
+## 12. Summary
+Awareness resolution is:
+- the clarity of cognitive perception  
+- the granularity of gradient visibility  
+- the determinant of nuance  
+- the buffer against collapse  
+- the foundation of meaning  
+- the stabilizer of identity  
+- the modulator of perturbation  
+
+Resolution Theory is the second major component of Awareness Gradient Theory.
