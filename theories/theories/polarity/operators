@@ -1,0 +1,62 @@
+# Polarity Operator Mapping
+### How HERMES Operators Act on Polarity and Gradients
+
+## 1. Overview
+HERMES is an operator-based cognitive runtime.  
+Its operators act directly on polarity axes, gradients, and identity states.
+
+This document defines how each operator interacts with polarity structures.
+
+## 2. INVERT
+**Function:** Flips the polarity axis.
+
+\( P(x) \rightarrow P(1 - x) \)
+
+Effects:
+- reverses endpoints  
+- shifts identity perspective  
+- reveals hidden symmetry  
+
+## 3. AMPLIFY
+**Function:** Steepens the gradient.
+
+\( P(x) \rightarrow P(x^k) \quad (k > 1) \)
+
+Effects:
+- increases contrast  
+- heightens emotional intensity  
+- destabilizes midpoint  
+
+## 4. HARMONIZE
+**Function:** Stabilizes the midpoint.
+
+\( P(x) \rightarrow P(0.5) \)
+
+Effects:
+- reduces collapse  
+- increases clarity  
+- integrates endpoints  
+
+## 5. RECURSE
+**Function:** Applies polarity to itself.
+
+\( P(x) \rightarrow P(P(x)) \)
+
+Effects:
+- creates meta‑polarity  
+- reveals self‑similarity  
+- enables deep introspection  
+
+## 6. MAP
+**Function:** Transfers polarity structure across cognitive layers.
+
+\( P(x) \rightarrow Q(x) \)
+
+Effects:
+- aligns variables  
+- synchronizes gradients  
+- enables multi‑layer reasoning  
+
+## 7. Summary
+HERMES operators modulate, stabilize, invert, amplify, and translate polarity structures.  
+They are the active mechanisms through which cognition interacts with gradients and identity.
