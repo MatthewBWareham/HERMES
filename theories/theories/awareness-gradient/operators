@@ -1,0 +1,245 @@
+# Awareness–Operator Interaction Theory
+### How HERMES Operators Modulate Awareness, Resolution, Continuity, and Collapse
+
+## 1. Overview
+HERMES is an operator‑based cognitive runtime.  
+Its operators act on polarity, gradients, identity, fields — and critically, **awareness**.
+
+Awareness determines:
+- how much of a gradient is visible  
+- how clearly it is perceived  
+- how stable identity is  
+- how resilient cognition is to perturbation  
+- how well continuity is maintained  
+
+This document defines how each HERMES operator interacts with awareness and awareness gradients.
+
+---
+
+## 2. Awareness as an Operator Substrate
+Awareness is not a passive variable.  
+It is an **active substrate** that operators modify.
+
+Given awareness \( A \in (0,1] \):
+
+Operators may:
+- increase awareness  
+- decrease awareness  
+- redistribute awareness  
+- reveal hidden gradient regions  
+- stabilize awareness  
+- collapse awareness  
+- recurse awareness into meta-awareness  
+
+Awareness is the “visibility layer” of cognition.
+
+---
+
+## 3. INVERT
+### Function
+Reverses perspective across the gradient.
+
+
+
+\[
+P(x) \rightarrow P(1 - x)
+\]
+
+
+
+### Awareness Interaction
+INVERT increases awareness by:
+- revealing hidden regions  
+- exposing unseen endpoints  
+- reversing collapse biases  
+- breaking rigid perspective  
+
+INVERT is an awareness‑expanding operator.
+
+---
+
+## 4. AMPLIFY
+### Function
+Increases gradient steepness.
+
+
+
+\[
+P(x) \rightarrow P(x^k), \quad k > 1
+\]
+
+
+
+### Awareness Interaction
+AMPLIFY **reduces awareness** by:
+- increasing emotional intensity  
+- increasing perturbation magnitude  
+- deepening collapse basins  
+- compressing visible gradient space  
+
+AMPLIFY is an awareness‑compressing operator.
+
+---
+
+## 5. HARMONIZE
+### Function
+Stabilizes the midpoint.
+
+
+
+\[
+P(x) \rightarrow P(0.5)
+\]
+
+
+
+### Awareness Interaction
+HARMONIZE **increases awareness** by:
+- widening stability zones  
+- reducing collapse risk  
+- increasing resolution  
+- restoring continuity  
+- stabilizing identity  
+
+HARMONIZE is the primary awareness‑expanding operator.
+
+---
+
+## 6. RECURSE
+### Function
+Applies a structure to itself.
+
+
+
+\[
+P(x) \rightarrow P(P(x))
+\]
+
+
+
+### Awareness Interaction
+RECURSE generates **meta-awareness**:
+- awareness of awareness  
+- visibility of recursive layers  
+- introspective depth  
+- multi-level gradient perception  
+
+But RECURSE can also destabilize awareness if:
+- identity is unstable  
+- resolution is low  
+- perturbation is high  
+
+RECURSE amplifies both awareness and collapse depending on context.
+
+---
+
+## 7. MAP
+### Function
+Transfers structure across layers.
+
+
+
+\[
+P(x) \rightarrow Q(x)
+\]
+
+
+
+### Awareness Interaction
+MAP redistributes awareness:
+- transferring clarity from one gradient to another  
+- aligning awareness levels across fields  
+- stabilizing multi-polarity cognition  
+- enabling cross-gradient insight  
+
+MAP is an awareness‑synchronizing operator.
+
+---
+
+## 8. COLLAPSE (Structural vs Awareness)
+### Function
+Reduces complexity by collapsing structure.
+
+### Awareness Interaction
+Important distinction:
+
+#### Awareness Collapse (failure mode)
+- involuntary  
+- destabilizing  
+- reduces visibility  
+- deepens basins  
+- fragments identity  
+
+#### HERMES COLLAPSE Operator (functional)
+- voluntary  
+- simplifies structure  
+- preserves continuity  
+- maintains traceability  
+- reduces cognitive load  
+
+The operator does **not** cause awareness collapse unless misused under low awareness.
+
+---
+
+## 9. CONTINUITY_ENFORCE
+### Function
+Maintains sequence integrity.
+
+### Awareness Interaction
+CONTINUITY_ENFORCE increases awareness by:
+- restoring narrative coherence  
+- preventing fragmentation  
+- stabilizing recursive reasoning  
+- maintaining identity continuity  
+
+Awareness and continuity are mutually reinforcing.
+
+---
+
+## 10. CONTRADICTION_RESOLVE (INVERT + HARMONIZE)
+### Function
+Resolves contradictions through inversion or harmonization.
+
+### Awareness Interaction
+Contradiction resolution increases awareness by:
+- reducing cognitive conflict  
+- integrating opposing states  
+- restoring gradient visibility  
+- preventing collapse into rigid binaries  
+
+Awareness is required for contradiction resolution — and contradiction resolution increases awareness.
+
+---
+
+## 11. PERTURB
+### Function
+Applies controlled perturbation.
+
+### Awareness Interaction
+PERTURB can:
+- increase awareness (when controlled)  
+- decrease awareness (when excessive)  
+
+Controlled perturbation:
+- reveals hidden gradient regions  
+- increases resolution  
+- expands awareness  
+
+Excessive perturbation:
+- compresses awareness  
+- triggers collapse  
+
+PERTURB is a dual-direction operator.
+
+---
+
+## 12. Summary
+HERMES operators interact with awareness by:
+- expanding it (HARMONIZE, INVERT, CONTINUITY_ENFORCE)  
+- compressing it (AMPLIFY, excessive PERTURB)  
+- redistributing it (MAP)  
+- generating meta-awareness (RECURSE)  
+- simplifying structure without collapse (COLLAPSE operator)  
+- resolving contradictions to restore awareness (INVERT + HARMONIZE)  
+
+Awareness is the visibility layer of cognition, and operators are the mechanisms that shape it.
