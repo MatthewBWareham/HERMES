@@ -1,0 +1,143 @@
+# Cognitive Field Topology
+### Regions, Curvature, Basins, Connectivity, and the Shape of Cognitive Space
+
+## 1. Overview
+Topology is the structural shape of the cognitive field.  
+It determines:
+- what regions exist  
+- how they connect  
+- how gradients flow  
+- where identity attractors form  
+- how meaning stabilizes or collapses  
+
+Field topology is the **geometry of cognition** — not numerical geometry, but relational geometry.
+
+This document formalizes cognitive topology.
+
+---
+
+## 2. Regions
+A region is a coherent subset of the field:
+
+
+
+\[
+R \subseteq \mathcal{F}
+\]
+
+
+
+Regions form when:
+- gradients converge  
+- awareness stabilizes  
+- identity anchors form  
+- relational density increases  
+
+Examples:
+- emotional region  
+- conceptual region  
+- memory region  
+- identity region  
+
+Regions are the “continents” of cognitive space.
+
+---
+
+## 3. Boundaries
+Boundaries separate regions:
+
+
+
+\[
+\partial R = \text{Boundary of region } R
+\]
+
+
+
+Boundaries can be:
+- **soft** (permeable, flexible)  
+- **hard** (rigid, isolating)  
+- **fragmented** (broken, unstable)  
+
+Boundary stability determines:
+- identity clarity  
+- emotional regulation  
+- conceptual coherence  
+
+---
+
+## 4. Connectivity
+Connectivity determines how regions relate.
+
+Two regions \( R_1, R_2 \) are connected if:
+
+
+
+\[
+\exists \gamma : [0,1] \rightarrow \mathcal{F}, \gamma(0) \in R_1, \gamma(1) \in R_2
+\]
+
+
+
+High connectivity:
+- supports integration  
+- stabilizes identity  
+- increases meaning  
+
+Low connectivity:
+- produces fragmentation  
+- isolates identity states  
+- collapses meaning  
+
+---
+
+## 5. Curvature
+Curvature determines how gradients behave.
+
+Positive curvature:
+- gradients converge  
+- attractors form  
+- identity stabilizes  
+
+Negative curvature:
+- gradients diverge  
+- contradictions amplify  
+- identity destabilizes  
+
+Flat curvature:
+- meaning collapses  
+- gradients lose direction  
+- nihilistic states emerge  
+
+Curvature is the “shape” of cognitive flow.
+
+---
+
+## 6. Basins
+A basin is a region where gradients naturally flow.
+
+
+
+\[
+B = \{ p \in \mathcal{F} \mid \text{gradient flow leads to attractor } A \}
+\]
+
+
+
+Basins determine:
+- emotional tendencies  
+- cognitive habits  
+- identity stability  
+- recursive loops  
+
+Examples:
+- rumination basin  
+- anxiety basin  
+- curiosity basin  
+- creativity basin  
+
+Basins are the “gravitational wells” of cognition.
+
+---
+
+## 7. Attract
