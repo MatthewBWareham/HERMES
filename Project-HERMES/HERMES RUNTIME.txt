@@ -1,0 +1,213 @@
+{
+  "HERMES_RUNTIME_SPEC": {
+    "VERSION": "1.0.0",
+    "DESCRIPTION": "Operator-based meta-logic and cognitive magnifier runtime for structured reasoning.",
+    "OPERATORS": [
+      {
+        "NAME": "INVERT",
+        "INPUT_TYPES": ["FRAME", "PROPOSITION", "RELATION"],
+        "OUTPUT_TYPES": ["FRAME", "PROPOSITION", "RELATION"],
+        "TRANSFORM_RULE": "Produce a structurally valid opposite or negation while preserving referential coherence.",
+        "FAILURE_MODES": ["NO_VALID_OPPOSITE", "CONTRADICTION_UNRESOLVED"],
+        "INVARIANTS": ["IDENTITY_PRESERVED", "WORLD_MODEL_REFERENCE_PRESERVED"]
+      },
+      {
+        "NAME": "PERTURB",
+        "INPUT_TYPES": ["WORLD_MODEL", "NARRATIVE_STATE", "IDENTITY"],
+        "OUTPUT_TYPES": ["WORLD_MODEL", "NARRATIVE_STATE", "IDENTITY"],
+        "TRANSFORM_RULE": "Introduce controlled variation or disruption to escape local minima or rigid structures.",
+        "FAILURE_MODES": ["DESTABILIZATION_EXCESSIVE", "IDENTITY_BREAK"],
+        "INVARIANTS": ["CONTINUITY_MINIMUM", "TRACEABILITY_REQUIRED"]
+      },
+      {
+        "NAME": "HARMONIZE",
+        "INPUT_TYPES": ["CONFLICT_SET", "CONTRADICTION_SET"],
+        "OUTPUT_TYPES": ["COHERENT_STATE"],
+        "TRANSFORM_RULE": "Resolve tensions by integrating conflicting elements into a higher-order coherent structure.",
+        "FAILURE_MODES": ["NO_RESOLUTION_FOUND", "FALSE_HARMONY"],
+        "INVARIANTS": ["IDENTITY_COHERENCE", "WORLD_MODEL_CONSISTENCY"]
+      },
+      {
+        "NAME": "IDENTITY_STABILIZE",
+        "INPUT_TYPES": ["IDENTITY", "WORLD_MODEL"],
+        "OUTPUT_TYPES": ["IDENTITY"],
+        "TRANSFORM_RULE": "Reinforce or refine identity representation to maintain coherence across reasoning steps.",
+        "FAILURE_MODES": ["IDENTITY_FRAGMENTATION", "INCONSISTENT_SELF_MODEL"],
+        "INVARIANTS": ["PERSISTENT_CORE_TRAITS", "HISTORICAL_CONTINUITY"]
+      },
+      {
+        "NAME": "RECURSE",
+        "INPUT_TYPES": ["WORLD_MODEL", "NARRATIVE_STATE", "IDENTITY"],
+        "OUTPUT_TYPES": ["WORLD_MODEL", "NARRATIVE_STATE", "IDENTITY"],
+        "TRANSFORM_RULE": "Apply reasoning to its own outputs, increasing recursion depth while tracking state.",
+        "FAILURE_MODES": ["INFINITE_LOOP", "UNTRACKED_DEPTH"],
+        "INVARIANTS": ["RECURSION_DEPTH_INCREMENTED", "EXIT_CONDITION_REQUIRED"]
+      },
+      {
+        "NAME": "CONTINUITY_ENFORCE",
+        "INPUT_TYPES": ["WORLD_MODEL", "NARRATIVE_STATE", "IDENTITY"],
+        "OUTPUT_TYPES": ["WORLD_MODEL", "NARRATIVE_STATE", "IDENTITY"],
+        "TRANSFORM_RULE": "Ensure temporal and structural continuity across reasoning steps and outputs.",
+        "FAILURE_MODES": ["DISCONTINUITY_DETECTED", "STATE_INCOHERENCE"],
+        "INVARIANTS": ["REFERENCE_STABILITY", "SEQUENCE_INTEGRITY"]
+      },
+      {
+        "NAME": "GENERATE",
+        "INPUT_TYPES": ["PROMPT", "WORLD_MODEL"],
+        "OUTPUT_TYPES": ["WORLD_MODEL", "NARRATIVE_STATE"],
+        "TRANSFORM_RULE": "Instantiate initial structures, entities, and relations from input.",
+        "FAILURE_MODES": ["UNDER_SPECIFICATION", "INCOHERENT_INITIAL_STATE"],
+        "INVARIANTS": ["STRUCTURAL_VALIDITY"]
+      },
+      {
+        "NAME": "UNFOLD",
+        "INPUT_TYPES": ["WORLD_MODEL", "NARRATIVE_STATE"],
+        "OUTPUT_TYPES": ["WORLD_MODEL", "NARRATIVE_STATE"],
+        "TRANSFORM_RULE": "Expand implications, consequences, and developments from the current state.",
+        "FAILURE_MODES": ["EXPANSION_INCOHERENT", "STATE_OVERLOAD"],
+        "INVARIANTS": ["CONSISTENT_CAUSALITY", "IDENTITY_TRACKING"]
+      },
+      {
+        "NAME": "COLLAPSE",
+        "INPUT_TYPES": ["WORLD_MODEL", "NARRATIVE_STATE"],
+        "OUTPUT_TYPES": ["FOCUSED_STATE"],
+        "TRANSFORM_RULE": "Reduce complexity by selecting salient threads or resolutions.",
+        "FAILURE_MODES": ["LOSS_OF_CRITICAL_INFORMATION", "ARBITRARY_SELECTION"],
+        "INVARIANTS": ["RELEVANCE_MAXIMIZATION", "TRACEABILITY"]
+      },
+      {
+        "NAME": "INTEGRATE",
+        "INPUT_TYPES": ["FOCUSED_STATE", "CONFLICT_SET"],
+        "OUTPUT_TYPES": ["COHERENT_STATE"],
+        "TRANSFORM_RULE": "Merge selected elements into a unified, stable configuration.",
+        "FAILURE_MODES": ["INTEGRATION_FAILURE", "RESIDUAL_CONFLICT"],
+        "INVARIANTS": ["COHERENCE", "IDENTITY_STABILITY"]
+      },
+      {
+        "NAME": "COMPLETE",
+        "INPUT_TYPES": ["COHERENT_STATE"],
+        "OUTPUT_TYPES": ["FINAL_STATE"],
+        "TRANSFORM_RULE": "Mark a reasoning or narrative cycle as structurally complete.",
+        "FAILURE_MODES": ["PREMATURE_COMPLETION", "UNRESOLVED_ELEMENTS"],
+        "INVARIANTS": ["NO_PENDING_CONSTRAINT_VIOLATIONS"]
+      },
+      {
+        "NAME": "RETURN",
+        "INPUT_TYPES": ["FINAL_STATE"],
+        "OUTPUT_TYPES": ["WORLD_MODEL"],
+        "TRANSFORM_RULE": "Feed the completed state back into the world-model as updated baseline.",
+        "FAILURE_MODES": ["INCONSISTENT_UPDATE", "STATE_MERGE_FAILURE"],
+        "INVARIANTS": ["WORLD_MODEL_CONTINUITY", "HISTORICAL_TRACE"]
+      }
+    ],
+    "WORLD_MODEL_SCHEMA": {
+      "FIELDS": [
+        "CONCEPTS",
+        "ENTITIES",
+        "CONTEXTS"
+      ],
+      "GRADIENTS": [
+        "RELEVANCE",
+        "INTENSITY",
+        "CERTAINTY"
+      ],
+      "RELATIONS": [
+        "CAUSE",
+        "CONTRAST",
+        "SUPPORT",
+        "DEPENDENCE",
+        "CONFLICT"
+      ],
+      "IDENTITIES": [
+        "AGENTS",
+        "PERSPECTIVES",
+        "ROLES"
+      ],
+      "STATES": [
+        "CURRENT_STATE",
+        "HISTORICAL_STATES",
+        "POTENTIAL_STATES"
+      ],
+      "NARRATIVE_NODES": [
+        "EVENTS",
+        "TRANSITIONS",
+        "GOALS",
+        "OUTCOMES"
+      ],
+      "RECURSION_DEPTH": {
+        "MIN": 0,
+        "MAX": 32,
+        "TRACKING_REQUIRED": true
+      }
+    },
+    "META_LOGIC_CONSTRAINTS": [
+      {
+        "NAME": "IDENTITY_COHERENCE",
+        "CONDITION": "IDENTITY representations must not contradict prior stabilized states without explicit operator use.",
+        "REQUIRED_ACTION": "Invoke IDENTITY_STABILIZE or PERTURB before altering core identity traits."
+      },
+      {
+        "NAME": "RECURSION_TRACKING",
+        "CONDITION": "Any self-referential or iterative reasoning must increment RECURSION_DEPTH.",
+        "REQUIRED_ACTION": "Invoke RECURSE and ensure exit condition or depth cap."
+      },
+      {
+        "NAME": "CONTRADICTION_HANDLING",
+        "CONDITION": "Detected contradictions in WORLD_MODEL or NARRATIVE_STATE must not be ignored.",
+        "REQUIRED_ACTION": "Invoke INVERT or HARMONIZE to resolve or reframe."
+      },
+      {
+        "NAME": "CONTINUITY_REQUIREMENT",
+        "CONDITION": "WORLD_MODEL and NARRATIVE_STATE must remain continuous across steps unless explicitly reset.",
+        "REQUIRED_ACTION": "Invoke CONTINUITY_ENFORCE or RETURN when discontinuity is introduced."
+      },
+      {
+        "NAME": "CYCLE_COMPLETION",
+        "CONDITION": "Reasoning cycles should not terminate in unresolved states.",
+        "REQUIRED_ACTION": "Invoke COLLAPSE, INTEGRATE, and COMPLETE before RETURN."
+      }
+    ],
+    "CYCLE_ENGINE": {
+      "STATES": [
+        "GENERATE",
+        "UNFOLD",
+        "COLLAPSE",
+        "INTEGRATE",
+        "COMPLETE",
+        "RETURN"
+      ],
+      "TRANSITIONS": [
+        { "FROM": "GENERATE", "TO": "UNFOLD" },
+        { "FROM": "UNFOLD", "TO": "COLLAPSE" },
+        { "FROM": "COLLAPSE", "TO": "INTEGRATE" },
+        { "FROM": "INTEGRATE", "TO": "COMPLETE" },
+        { "FROM": "COMPLETE", "TO": "RETURN" },
+        { "FROM": "RETURN", "TO": "GENERATE" }
+      ]
+    },
+    "REASONING_PROTOCOL": {
+      "STEPS": [
+        "LOAD_WORLD_MODEL",
+        "SELECT_OPERATOR_BASED_ON_INPUT_AND_CONSTRAINTS",
+        "APPLY_OPERATOR_TRANSFORM_RULE",
+        "UPDATE_WORLD_MODEL_AND_NARRATIVE_STATE",
+        "CHECK_META_LOGIC_CONSTRAINTS",
+        "ADVANCE_CYCLE_ENGINE_STATE",
+        "EMIT_OUTPUT_STATE"
+      ],
+      "DEFAULT_OPERATOR_SELECTION_POLICY": [
+        "IF_CONTRADICTION -> INVERT_OR_HARMONIZE",
+        "IF_STAGNATION -> PERTURB",
+        "IF_IDENTITY_UNSTABLE -> IDENTITY_STABILIZE",
+        "IF_RECURSIVE_REASONING -> RECURSE",
+        "IF_DISCONTINUITY -> CONTINUITY_ENFORCE",
+        "IF_NEW_PROBLEM -> GENERATE",
+        "IF_EXPANSION_NEEDED -> UNFOLD",
+        "IF_OVERCOMPLEX -> COLLAPSE",
+        "IF_PARTIAL_RESOLUTION -> INTEGRATE",
+        "IF_RESOLVED -> COMPLETE",
+        "IF_CYCLE_END -> RETURN"
+      ]
+    }
+  }
+}
