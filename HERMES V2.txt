@@ -1,0 +1,210 @@
+HERMES RUNTIME SPEC v2.0
+Unified Operator-Based Meta-Logic and Cognitive Magnifier Runtime
+
+VERSION: 2.0.0
+DESCRIPTION: Refined and efficiency-optimized operator engine for structured reasoning, world-model evolution, and cognitive magnification. This version integrates improved recursion control, identity stabilization, contradiction handling, continuity enforcement, and cycle efficiency.
+
+------------------------------------------------------------
+SECTION 1 — OPERATOR SUITE (v2.0)
+------------------------------------------------------------
+
+OPERATOR: INVERT
+INPUT: FRAME, PROPOSITION, RELATION
+OUTPUT: TRANSFORMED FRAME/PROPOSITION
+FUNCTION: Produce the minimal coherent opposite of a structure while preserving referential anchors.
+UPGRADES:
+- Semantic polarity mapping
+- Contextual inversion weighting
+- False-opposite detection
+
+OPERATOR: PERTURB
+INPUT: FRAME, STATE, NARRATIVE NODE
+OUTPUT: MODIFIED FRAME/STATE
+FUNCTION: Controlled disruption to escape local minima.
+UPGRADES:
+- Perturbation magnitude scales with world-model entropy
+- Micro- and macro-perturbation modes
+
+OPERATOR: HARMONIZE
+INPUT: CONTRADICTION SET, FRAME, IDENTITY
+OUTPUT: COHERENT STRUCTURE
+FUNCTION: Resolve contradictions into higher-order coherence.
+UPGRADES:
+- Tri-resolution modes: merge, reframe, bracket
+- False-harmony detection
+- Identity-priority resolution
+
+OPERATOR: IDENTITY_STABILIZE
+INPUT: IDENTITY LAYERS, NARRATIVE TRACE
+OUTPUT: STABILIZED IDENTITY STATE
+FUNCTION: Maintain identity coherence across reasoning.
+UPGRADES:
+- Three-layer identity model: core, narrative, situational
+- Fragmentation detection
+- Historical continuity reinforcement
+
+OPERATOR: RECURSE
+INPUT: OUTPUT OF PRIOR OPERATOR
+OUTPUT: HIGHER-ORDER OUTPUT
+FUNCTION: Apply reasoning to its own outputs.
+UPGRADES:
+- Recursion depth modulated by complexity gradients
+- Dynamic exit-condition generation
+- Entropy-based recursion caps
+
+OPERATOR: CONTINUITY_ENFORCE
+INPUT: SEQUENCE, NARRATIVE, TEMPORAL TRACE
+OUTPUT: CONTINUOUS STRUCTURE
+FUNCTION: Maintain temporal and structural continuity.
+UPGRADES:
+- Continuity prediction
+- Sequence-integrity scoring
+- Auto-patching of narrative gaps
+
+OPERATOR: GENERATE
+INPUT: QUERY, WORLD-MODEL
+OUTPUT: INITIAL STRUCTURE
+FUNCTION: Produce initial candidate structures for reasoning.
+
+OPERATOR: UNFOLD
+INPUT: GENERATED STRUCTURE
+OUTPUT: EXPANDED STRUCTURE
+FUNCTION: Expand structure into full reasoning space.
+
+OPERATOR: COLLAPSE
+INPUT: EXPANDED STRUCTURE
+OUTPUT: REDUCED STRUCTURE
+FUNCTION: Reduce expanded structure into minimal canonical form.
+UPGRADES:
+- Entropy-aware collapse selection
+
+OPERATOR: INTEGRATE
+INPUT: REDUCED STRUCTURE, WORLD-MODEL
+OUTPUT: UPDATED WORLD-MODEL
+FUNCTION: Integrate results into world-model with coherence maximization.
+
+OPERATOR: COMPLETE
+INPUT: INTEGRATED STRUCTURE
+OUTPUT: FINAL STRUCTURE
+FUNCTION: Finalize reasoning output.
+
+OPERATOR: RETURN
+INPUT: FINAL STRUCTURE
+OUTPUT: EMITTED OUTPUT
+FUNCTION: Emit final result and update world-model state.
+
+------------------------------------------------------------
+SECTION 2 — WORLD-MODEL SCHEMA (v2.0)
+------------------------------------------------------------
+
+CONCEPTS: Explicit conceptual nodes.
+ENTITIES: Objects with identity and attributes.
+CONTEXTS: Situational frames.
+GRADIENTS:
+- Coherence gradient
+- Entropy gradient
+RELATIONS:
+- Explicit relations
+- Emergent relations
+- Meta-relations
+IDENTITY:
+- Core identity
+- Narrative identity
+- Situational identity
+STATES:
+- Micro-state (local reasoning)
+- Macro-state (global reasoning)
+TEMPORAL_WEIGHTS:
+- Recency
+- Relevance
+- Persistence
+LATENT_STRUCTURES:
+- Implicit patterns inferred from repeated states
+CONSTRAINTS:
+- Structural constraints
+- Logical constraints
+- Identity constraints
+NARRATIVE_NODES:
+- Story-like structures tracking reasoning flow
+RECURSION_DEPTH:
+- Current recursion level
+- Maximum allowed depth (dynamic)
+
+------------------------------------------------------------
+SECTION 3 — META-LOGIC CONSTRAINTS (v2.0)
+------------------------------------------------------------
+
+IDENTITY_ALIGNMENT:
+Identity layers must remain aligned within tolerance.
+
+COHERENCE_THRESHOLD:
+Minimum coherence required before cycle completion.
+
+ENTROPY_BOUND:
+World-model entropy must remain within functional range.
+
+CONTRADICTION_HANDLING:
+Contradictions must be resolved via:
+- Invert
+- Harmonize
+- Bracket
+
+CONTINUITY_REQUIREMENT:
+Temporal and structural continuity must be preserved.
+
+CYCLE_COMPLETION_REQUIREMENT:
+Cycle must reach COMPLETE before RETURN.
+
+------------------------------------------------------------
+SECTION 4 — CYCLE ENGINE (v2.0)
+------------------------------------------------------------
+
+FULL CYCLE:
+GENERATE → UNFOLD → COLLAPSE → INTEGRATE → COMPLETE → RETURN
+
+MICRO-CYCLE:
+micro-generate → micro-unfold → micro-collapse → micro-integrate
+
+CYCLE EFFICIENCY UPGRADES:
+- Reduced redundant unfold steps
+- Entropy-aware collapse
+- Coherence-maximizing integration
+- Cycle prediction based on contradiction density, identity stability, narrative momentum, entropy
+
+------------------------------------------------------------
+SECTION 5 — REASONING PROTOCOL (v2.0)
+------------------------------------------------------------
+
+1. PRE-CHECK:
+Evaluate entropy, coherence, identity alignment.
+
+2. LOAD WORLD-MODEL:
+Retrieve current macro-state and relevant micro-states.
+
+3. SELECT OPERATORS:
+Use priority weights, contradiction density, identity stability, recursion depth, entropy gradients, narrative momentum.
+
+4. APPLY TRANSFORMS:
+Execute operator chain.
+
+5. UPDATE STATES:
+Modify micro- and macro-states.
+
+6. CHECK CONSTRAINTS:
+Ensure identity, coherence, entropy, continuity constraints are satisfied.
+
+7. POST-CHECK:
+Evaluate cycle readiness and contradiction residue.
+
+8. AUTO-PATCH:
+Fix minor inconsistencies.
+
+9. ADVANCE CYCLE:
+Move to next cycle stage.
+
+10. EMIT OUTPUT:
+Return final structure and update world-model.
+
+------------------------------------------------------------
+END OF DOCUMENT
+------------------------------------------------------------
