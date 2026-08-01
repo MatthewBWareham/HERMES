@@ -43,39 +43,47 @@ Runtime-shaped but inactive architecture. No flows, no activation, no semantics.
 ## Directory Structure
 
 ### /core
-Canonical V2 architecture. All runtime-shaped but inert components.
+Canonical V2 architecture. Contains the inert runtime skeleton and structural integration modules:
+- integration_spine/
+- arc_bindings/
+- coherence_map/
+- inert_runtime_skeleton/
+- canonical_specs/
+- URS Runtime v2.0/
 
 ### /docs
-Documentation for V2:
+V2 documentation and release materials:
 - README
 - CHANGELOG
-- release notes
-- architecture overview
-- citation and license files
+- CITATION.cff
+- LICENSE
 
 ### /assets
 Diagrams, charts, images, and reference visuals.
 
 ### /tooling
-Schemas, inactive operator definitions, and cognitive magnifier utilities. No runtime wiring.
+Reusable structural components and utility material for V2, including:
+- schemas
+- inactive operator definitions
+- cognitive magnifier utilities
+- structural components
 
 ### /harness
-Safe, bounded, non-recursive test harnesses for structural traversal and coherence validation.
+Safe, bounded, non-recursive inspection and validation utilities for structure and coherence.
 
 ### /experiments
-Non-canonical prototypes, drafts, and speculative runtime research. Contains no V2 core logic.
+Non-canonical prototypes, drafts, and speculative research that are not part of the V2 core.
 
 ### /theory
-Conceptual and ontological documents that inform V2 but are not part of the runtime substrate.
+Conceptual and ontological material that informs the V2 substrate without being part of the canonical runtime skeleton.
 
 ### /legacy
-All superseded V1 frameworks and deprecated materials:
-- Unified Theory (V1)
-- Fractal Mechanics Foundation
-- HERMES Runtime v1
-- Unified Cognitive Architecture v1
-- Unified Identity Architecture v1
-- old specs and notes
+Superseded and non-canonical material only:
+- V1 frameworks
+- pre-V2 drafts
+- deprecated notes
+- old runtime content
+- old architecture content
 
 ---
 
