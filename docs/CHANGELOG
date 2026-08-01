@@ -1,0 +1,26 @@
+# Changelog
+
+## v2.0.0 — Unified Substrate and Canonical V2 Architecture
+
+- Completed the unified substrate integration event.
+- Added the integration spine as the canonical structural backbone for the runtime.
+- Added the inert runtime skeleton as a unified, addressable architecture scaffold.
+- Established arc bindings across structural, activation, emergence, and identity arcs.
+- Introduced a coherence map for structural relationships across arcs and layers.
+- Transitioned the project from the prior V1 framework orientation toward the canonical V2 architecture.
+
+## v1.0.0 — Initial Release
+
+- Defined core operator suite:
+  - INVERT, PERTURB, HARMONIZE, IDENTITY_STABILIZE, RECURSE, CONTINUITY_ENFORCE
+  - GENERATE, UNFOLD, COLLAPSE, INTEGRATE, COMPLETE, RETURN
+- Established world-model schema:
+  - Concepts, Entities, Relations, Frames, Gradients, WorldState
+- Specified meta-logic constraints:
+  - Identity coherence, recursion tracking, contradiction handling, continuity
+- Implemented canonical reasoning cycle:
+  - GENERATE → UNFOLD → COLLAPSE → INTEGRATE → COMPLETE → RETURN
+- Clarified scope:
+  - Abstract reasoning engine only
+  - No personal cognitive mapping or ontology
+
